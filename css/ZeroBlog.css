@@ -1,8 +1,8 @@
 /* Design based on medium */
 
-body { background-color: white; color: #333332; margin: 10px; padding: 0px; font-family: 'Roboto', sans-serif; height: 15000px; overflow: hidden; backface-visibility: hidden }
+body { background-color: white; color: #333332; margin: 10px; padding: 0px; font-family: 'Microsoft YaHei', 'Roboto', sans-serif; height: 15000px; overflow: hidden; backface-visibility: hidden }
 body.loaded { height: auto; overflow: auto }
-h1, h2, h3, h4 { font-family: 'Roboto', sans-serif; font-weight: normal; margin: 0px; padding: 0px }
+h1, h2, h3, h4 { font-family: 'Microsoft YaHei', 'Roboto', sans-serif; font-weight: normal; margin: 0px; padding: 0px }
 h1 { font-size: 32px; line-height: 1.2em; font-weight: bold; letter-spacing: -0.5px; margin-bottom: 5px }
 h2 { margin-top: 2em }
 h3 { font-size: 24px; margin-top: 2em }
@@ -12,7 +12,7 @@ p { margin-top: 0.9em; margin-bottom: 0.9em }
 hr { margin: 20px 0px; border: none; border-bottom: 1px solid #eee; margin-left: auto; margin-right: auto; width: 120px; }
 small { font-size: 80%; color: #999; }
 
-a { border-bottom: 1px solid #3498db; text-decoration: none; color: black; font-weight: bold }
+a { border-bottom: 1px solid #3498db; text-decoration: none; color: black; /*font-weight: bold*/ }
 a.nolink { border-bottom: none }
 a:hover { color: #3498db }
 

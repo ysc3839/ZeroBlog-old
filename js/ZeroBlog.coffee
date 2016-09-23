@@ -606,7 +606,7 @@ class ZeroBlog extends ZeroFrame
       @cmd "sitePublish", ["stored"], (res) =>
         @log "Publish result:", res
     else
-      @cmd "wrapperPrompt", ["Enter your private key:", "password"],
+      @cmd "wrapperPrompt", ["输入您的私钥:", "password"],
       (privatekey) => # Prompt the private key
         $(".publishbar .button").addClass("loading")
         @cmd "sitePublish", [privatekey], (res) =>
@@ -652,7 +652,7 @@ class ZeroBlog extends ZeroFrame
         .data("content", post.date_published)
 
 
-    $(".details .tag",elem).append(tagToHtml(tag))
+    $(".details .tag",elem).append(@tagToHtml(tag))
 
     $(".details .tag",elem).data("content",(tag.join(" ")))
 
@@ -810,7 +810,7 @@ class ZeroBlog extends ZeroFrame
             if elem.data("editable") == "tag"
               # tag list appears as links
               # reserve leading text
-              cb($(".post.template span.tag").text()+tagToHtml(dedup))
+              cb($(".post.template span.tag").text()+@tagToHtml(dedup))
             else if elem.data("editable-mode") == "simple" # No markdown
               cb(content)
             else if elem.data("editable-mode") == "timestamp" # Format timestamp
@@ -1002,6 +1002,15 @@ class ZeroBlog extends ZeroFrame
       @loadData()
       if $("body").hasClass("page-main") then @pageMain()
       if $("body").hasClass("page-post") then @pagePost()
+
+
+  tagToHtml: (tag) ->
+    # input parameter must not empty nor have duplicate
+    if typeof tag is 'string' then tag = tag.split(' ')
+
+    if tag.length is 0 then return "<a href='?Toc=tagNone'>not tagged</a>"
+
+    (for value in tag then "<a href='?Toc=tag:#{encodeURIComponent(value)}'>#{value}</a>").join(' ')
 
 
 window.Page = new ZeroBlog()

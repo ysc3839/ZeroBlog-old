@@ -3,26 +3,25 @@ class Time
 		now = +(new Date)/1000
 		secs = now - time
 		if secs < 60
-			back = "Just now"
+			back = "刚刚"
 		else if secs < 60*60
-			back = "#{Math.round(secs/60)} minutes ago"
+			back = "#{Math.round(secs/60)} 分钟前"
 		else if secs < 60*60*24
-			back = "#{Math.round(secs/60/60)} hours ago"
+			back = "#{Math.round(secs/60/60)} 小时前"
 		else if secs < 60*60*24*3
-			back = "#{Math.round(secs/60/60/24)} days ago"
+			back = "#{Math.round(secs/60/60/24)} 天前"
 		else
-			back = "on "+@date(time)
+			back = "于 "+@date(time)
 		back = back.replace(/1 ([a-z]+)s/, "1 $1") # 1 days ago fix
 		return back
 
 
 	date: (timestamp, format="short") ->
-		parts = (new Date(timestamp*1000)).toString().split(" ")
-		if format == "short"
-			display = parts.slice(1, 4)
-		else
-			display = parts.slice(1, 5)
-		return display.join(" ").replace(/( [0-9]{4})/, ",$1")
+		date = new Date(timestamp*1000)
+		display = [date.getFullYear(), date.getMonth()+1, date.getDate()].join("-")
+		if format != "short"
+			display = display + " " + date.toTimeString().split(" ")[0]
+		return display
 
 
 	timestamp: (date="") ->
