@@ -52,7 +52,7 @@ class InlineEditor
 
 		# Deletable button show/hide
 		if @getObject(@elem).data("deletable")
-			$(".editbar .delete").css("display", "").html("Delete "+@getObject(@elem).data("object").split(":")[0])
+			$(".editbar .delete").css("display", "").html("删除 "+@getObject(@elem).data("object").split(":")[0])
 		else
 			$(".editbar .delete").css("display", "none")
 
@@ -95,7 +95,7 @@ class InlineEditor
 
 	deleteObject: =>
 		object_type = @getObject(@elem).data("object").split(":")[0]
-		Page.cmd "wrapperConfirm", ["Are you sure you sure to delete this #{object_type}?", "Delete"], (confirmed) => 
+		Page.cmd "wrapperConfirm", ["你确定要删除此 #{object_type}?", "删除"], (confirmed) => 
 			$(".editbar .delete").addClass("loading")
 			Page.saveContent @getObject(@elem), null, =>
 				@stopEdit()

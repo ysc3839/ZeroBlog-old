@@ -17,8 +17,8 @@
    "size": 679
   },
   "data/data.json": {
-   "sha512": "3dd616f7f1c1db80c3999543ddd925f5a109ac8f325021c3dceaca2cafcb66f1",
-   "size": 378
+   "sha512": "de0230908c11ca534d6a3283c876af860a0366a5317b8d269e07bac51c9a7761",
+   "size": 470
   },
   "dbschema.json": {
    "sha512": "974d97e6fbc38d09778ea1116862022c596a5231f3c8eb442a2630474eebd789",
@@ -33,8 +33,12 @@
    "size": 723
   },
   "index.html": {
-   "sha512": "69a2cab77c106aba434e6eaf723c3b8c93b907443dab9a6b9c146e813c6cbc5a",
-   "size": 6473
+   "sha512": "1809b7cbc46192cc3b329cdccd87962937452711ff3943d9771ca3846a932e9c",
+   "size": 6475
+  },
+  "js/all.js": {
+   "sha512": "1272c0076fb9b95bad396d5cc214cab51705f795514bc279d4f78b194b498b60",
+   "size": 232412
   }
  },
  "ignore": "((js|css)/(?!all.(js|css))|data/.*db|data/users/.*/.*|LICENSE|README.md|.git)",
@@ -45,15 +49,15 @@
   }
  },
  "inner_path": "content.json",
- "modified": 1474643875.41,
+ "modified": 1474645699.143,
  "postmessage_nonce_security": true,
  "sign": [
-  41324650463839343174172151472297816195001362016136799307166541105480841962196,
-  9268440561829118871010750601697993812123772476888116199768807287315307289898
+  32491868268466153369552176180898671308411733795102841978182716884161802648696,
+  59883654194412169235072361198016478052128757621659672711668429347861619262720
  ],
  "signers_sign": "Gzco7Gdz/iB+EdwvnqJOxLgbhXT/qs1qRVPtKwTfo7ugmsRVyfuP/orPUL8Ahd6cObpS8SYLjXWsjNPjAXrnux4=",
  "signs": {
-  "1YSChkugEe2CzeFtEjJ7Kox9yfLsVWvmW": "HPRn6hlJj8/pUpSECvH45fkbc4Hhsfax+yUmdseRgUKBWpthT0fGZnUZwmZkYZdG8DZMidGSSClxD6LNT2y2VyU="
+  "1YSChkugEe2CzeFtEjJ7Kox9yfLsVWvmW": "G6tFf7PyzxXOCGyuRncAN9N/ZRWS6cjbP/NsLHdjjMDcJ9lFVaY7osODLx3JTlZvmILXVbdxUubNr1G3KkqH1H8="
  },
  "signs_required": 1,
  "title": "YSC's blog",

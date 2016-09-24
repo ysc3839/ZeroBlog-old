@@ -11,7 +11,7 @@ class Time
 		else if secs < 60*60*24*3
 			back = "#{Math.round(secs/60/60/24)} 天前"
 		else
-			back = "于 "+@date(time)
+			back = "发表于 "+@date(time)
 		back = back.replace(/1 ([a-z]+)s/, "1 $1") # 1 days ago fix
 		return back
 

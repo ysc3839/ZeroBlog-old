@@ -351,7 +351,7 @@ class ZeroBlog extends ZeroFrame
 
 
         @applyPostdata($(".post-full"),
-          title:"index by tag"
+          title:"按标签索引"
           post_id:-1
           votes:-1
           comments:-1
@@ -402,7 +402,7 @@ class ZeroBlog extends ZeroFrame
             :"+post.title+"](?Post:#{post.post_id})\n"
 
         @applyPostdata($(".post-full"),
-          title:"index by date"
+          title:"按日期索引"
           post_id:-1
           votes:-1
           comments:-1
@@ -1008,7 +1008,7 @@ class ZeroBlog extends ZeroFrame
     # input parameter must not empty nor have duplicate
     if typeof tag is 'string' then tag = tag.split(' ')
 
-    if tag.length is 0 then return "<a href='?Toc=tagNone'>not tagged</a>"
+    if tag.length is 0 then return "<a href='?Toc=tagNone'>未分类</a>"
 
     (for value in tag then "<a href='?Toc=tag:#{encodeURIComponent(value)}'>#{value}</a>").join(' ')
 

@@ -33,8 +33,7 @@ class Comments extends Class
       WHERE post_id = #{@post_id} ORDER BY date_added DESC"
 
     Page.cmd "dbQuery", query, (comments) =>
-      $("#Comments").text(comments.length +
-        if comments.length > 1 then " Comments:" else " Comment:")
+      $("#Comments").text(comments.length + " 条评论:")
       for comment in comments
         user_address = comment.directory.replace("users/", "")
         comment_address = "#{comment.comment_id}_#{user_address}"
@@ -154,7 +153,7 @@ class Comments extends Class
   setCurrentSize: (current_size) ->
     if current_size
       current_size_kb = current_size/1000
-      $(".user-size").text("used: #{current_size_kb.toFixed(1)}k/#{Math.round(
+      $(".user-size").text("已用: #{current_size_kb.toFixed(1)}k/#{Math.round(
         @rules.max_size/1000)}k")
       $(".user-size-used").css("width",
         Math.round(70*current_size/@rules.max_size))
