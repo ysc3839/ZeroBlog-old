@@ -810,7 +810,7 @@ class ZeroBlog extends ZeroFrame
             if elem.data("editable") == "tag"
               # tag list appears as links
               # reserve leading text
-              cb($(".post.template span.tag").text()+@tagToHtml(dedup))
+              cb($(".post.template span.tag").text()+_this.tagToHtml(dedup))
             else if elem.data("editable-mode") == "simple" # No markdown
               cb(content)
             else if elem.data("editable-mode") == "timestamp" # Format timestamp
