@@ -1002,6 +1002,7 @@ class ZeroBlog extends ZeroFrame
       @loadData()
       if $("body").hasClass("page-main") then @pageMain()
       if $("body").hasClass("page-post") then @pagePost()
+    $("#peers").text(site_info.peers)
 
 
   tagToHtml: (tag) ->
