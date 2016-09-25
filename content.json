@@ -17,12 +17,16 @@
    "size": 679
   },
   "data/data.json": {
-   "sha512": "de0230908c11ca534d6a3283c876af860a0366a5317b8d269e07bac51c9a7761",
-   "size": 470
+   "sha512": "1e2e704ef4b99593a1b61e6b316faf984bf3c171ce568f5b0021a532aef587d5",
+   "size": 4486
+  },
+  "data/img/tutorial-1.png": {
+   "sha512": "885d322f4e189775cbacb6e7d4f9ee89554d5709077e3777f0d382b0e9d315f1",
+   "size": 18729
   },
   "dbschema.json": {
-   "sha512": "974d97e6fbc38d09778ea1116862022c596a5231f3c8eb442a2630474eebd789",
-   "size": 2897
+   "sha512": "b212fc87cf65ff36a67bbb49d121805b592eb17120a847d01d7959e49fd98569",
+   "size": 3087
   },
   "img/avatar.png": {
    "sha512": "a656c470967e27c2b385182a361db8bab1696fe3b2d79c86394236d02ce42eb8",
@@ -33,12 +37,12 @@
    "size": 723
   },
   "index.html": {
-   "sha512": "1809b7cbc46192cc3b329cdccd87962937452711ff3943d9771ca3846a932e9c",
-   "size": 6475
+   "sha512": "35d69f7ef9a18085625c70bacaf248480f39cd987f4182c1900ad3caf5665fba",
+   "size": 6519
   },
   "js/all.js": {
-   "sha512": "1272c0076fb9b95bad396d5cc214cab51705f795514bc279d4f78b194b498b60",
-   "size": 232412
+   "sha512": "00eea6c2485aaf5edc8febc7d0cbe697481d208a39676f49c4be5c7958ed1bf7",
+   "size": 232825
   }
  },
  "ignore": "((js|css)/(?!all.(js|css))|data/.*db|data/users/.*/.*|LICENSE|README.md|.git)",
@@ -49,15 +53,15 @@
   }
  },
  "inner_path": "content.json",
- "modified": 1474645699.143,
+ "modified": 1474786887.695,
  "postmessage_nonce_security": true,
  "sign": [
-  32491868268466153369552176180898671308411733795102841978182716884161802648696,
-  59883654194412169235072361198016478052128757621659672711668429347861619262720
+  48204440620318937646477427615817099188083116319399839028220099602257244887754,
+  34308033748791409308472791671951409584620925191166901689242068390083476798416
  ],
  "signers_sign": "Gzco7Gdz/iB+EdwvnqJOxLgbhXT/qs1qRVPtKwTfo7ugmsRVyfuP/orPUL8Ahd6cObpS8SYLjXWsjNPjAXrnux4=",
  "signs": {
-  "1YSChkugEe2CzeFtEjJ7Kox9yfLsVWvmW": "G6tFf7PyzxXOCGyuRncAN9N/ZRWS6cjbP/NsLHdjjMDcJ9lFVaY7osODLx3JTlZvmILXVbdxUubNr1G3KkqH1H8="
+  "1YSChkugEe2CzeFtEjJ7Kox9yfLsVWvmW": "G1Tp6BzLczi4n7mrva1LBPieJGHopP2d2oJ8Gki75XB/VBO7X0Q0I1U+MSUewxgewy6vPqOjtoRBsYfmlkkif3k="
  },
  "signs_required": 1,
  "title": "YSC's blog",
