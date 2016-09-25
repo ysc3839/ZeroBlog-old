@@ -34,7 +34,7 @@ class ZeroBlog extends ZeroFrame
 
   initFollowButton: ->
     @follow = new Follow($(".feed-follow"))
-    @follow.addFeed("Posts", "
+    @follow.addFeed("文章", "
       SELECT
        post_id AS event_uri,
        'post' AS type,
@@ -46,7 +46,7 @@ class ZeroBlog extends ZeroFrame
 
     if Page.site_info.cert_user_id
       username = Page.site_info.cert_user_id.replace /@.*/, ""
-      @follow.addFeed("Username mentions", "
+      @follow.addFeed("提到某人", "
         SELECT
         'comment' AS type,
          date_added,
@@ -66,7 +66,7 @@ class ZeroBlog extends ZeroFrame
          comment.body LIKE '%@#{username}%'
       ", true)
 
-    @follow.addFeed("Comments", "
+    @follow.addFeed("评论", "
       SELECT
       'comment' AS type,
        date_added,
@@ -82,7 +82,7 @@ class ZeroBlog extends ZeroFrame
       (keyvalue.json_id = json_content.json_id AND key = 'cert_user_id')
       LEFT JOIN post ON (comment.post_id = post.post_id)")
 
-    @follow.addFeed("Changes", "
+    @follow.addFeed("最近更改", "
       SELECT
       'changes' AS type,
        date_modified AS date_added,
