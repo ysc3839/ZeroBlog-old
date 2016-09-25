@@ -35,9 +35,9 @@ class Time
 	readtime: (text) ->
 		chars = text.length
 		if chars > 1500
-			return parseInt(chars/1500)+" min read"
+			return parseInt(chars/1500)+" 分钟读完"
 		else
-			return "less than 1 min read"
+			return "少于 1 分钟读完"
 
 
 window.Time = new Time
