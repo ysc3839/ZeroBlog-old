@@ -3,30 +3,31 @@
  "background-color": "white",
  "cloneable": true,
  "description": "",
+ "domain": "ysc3839.bit",
  "files": {
   "css/all.css": {
    "sha512": "7963f49264947a971d7233630e6edff82d366df609db6ced5e7a7dc02b328ca9",
    "size": 127469
   },
   "data-default/data.json": {
-   "sha512": "aff6accbac7e950ff567105666ddf29b70ca7c2dcd9d90f9a969509a42a9b195",
-   "size": 352
+   "sha512": "30ef07f26ac1999fae1f885590266c2a424babf5a696c6eb379efd69862a7c8e",
+   "size": 438
   },
   "data-default/users/content-default.json": {
    "sha512": "0603ce08f7abb92b3840ad0cf40e95ea0b3ed3511b31524d4d70e88adba83daa",
    "size": 679
   },
   "data/data.json": {
-   "sha512": "1e2e704ef4b99593a1b61e6b316faf984bf3c171ce568f5b0021a532aef587d5",
-   "size": 4486
+   "sha512": "ef5ac979850c5e81e899715bec3aa7ea37f14943c21f95018df7aebdc3d0ed96",
+   "size": 19610
   },
   "data/img/tutorial-1.png": {
    "sha512": "885d322f4e189775cbacb6e7d4f9ee89554d5709077e3777f0d382b0e9d315f1",
    "size": 18729
   },
   "dbschema.json": {
-   "sha512": "b212fc87cf65ff36a67bbb49d121805b592eb17120a847d01d7959e49fd98569",
-   "size": 3087
+   "sha512": "efb669d971d3c1effb29dfcb61de5a83a5d1ba0eae760eec045c71b953aeb2ed",
+   "size": 3097
   },
   "img/avatar.png": {
    "sha512": "a656c470967e27c2b385182a361db8bab1696fe3b2d79c86394236d02ce42eb8",
@@ -37,12 +38,12 @@
    "size": 723
   },
   "index.html": {
-   "sha512": "35d69f7ef9a18085625c70bacaf248480f39cd987f4182c1900ad3caf5665fba",
-   "size": 6519
+   "sha512": "70c1f251a729807b085aef46b4992e119f748815334ff18ad51801e0ff0cfb94",
+   "size": 6594
   },
   "js/all.js": {
-   "sha512": "00eea6c2485aaf5edc8febc7d0cbe697481d208a39676f49c4be5c7958ed1bf7",
-   "size": 232825
+   "sha512": "8971184a881d25eb34910607a2e0f4deb14a9ff0d862fe156c96fe10692d4095",
+   "size": 232919
   }
  },
  "ignore": "((js|css)/(?!all.(js|css))|data/.*db|data/users/.*/.*|LICENSE|README.md|.git)",
@@ -53,15 +54,15 @@
   }
  },
  "inner_path": "content.json",
- "modified": 1474786887.695,
+ "modified": 1475251918.745,
  "postmessage_nonce_security": true,
  "sign": [
-  48204440620318937646477427615817099188083116319399839028220099602257244887754,
-  34308033748791409308472791671951409584620925191166901689242068390083476798416
+  34169455379273509360941736151317534794816772705323837877420915148181358262219,
+  90287961842951182529679792173125440810810021189403742373921722882682007774149
  ],
  "signers_sign": "Gzco7Gdz/iB+EdwvnqJOxLgbhXT/qs1qRVPtKwTfo7ugmsRVyfuP/orPUL8Ahd6cObpS8SYLjXWsjNPjAXrnux4=",
  "signs": {
-  "1YSChkugEe2CzeFtEjJ7Kox9yfLsVWvmW": "G1Tp6BzLczi4n7mrva1LBPieJGHopP2d2oJ8Gki75XB/VBO7X0Q0I1U+MSUewxgewy6vPqOjtoRBsYfmlkkif3k="
+  "1YSChkugEe2CzeFtEjJ7Kox9yfLsVWvmW": "G+N03NjDaDKGUB6E8ix8G/AH+WqUd0528455uJHCwZE+lWIVwmyWNjh74fAGKsXacjrVz13H/DuYqZTROFq/YNg="
  },
  "signs_required": 1,
  "title": "YSC's blog",

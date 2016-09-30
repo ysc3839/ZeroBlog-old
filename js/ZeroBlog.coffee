@@ -112,6 +112,8 @@ class ZeroBlog extends ZeroFrame
             .data("content", @data.description)
         $(".left .links").html(Text.renderMarked(@data.links))
             .data("content", @data.links)
+        $("#footer h4").html(Text.renderMarked(@data.footer))
+            .data("content", @data.footer)
 
   loadLastcomments: (type="show", cb=false) ->
     query = "
