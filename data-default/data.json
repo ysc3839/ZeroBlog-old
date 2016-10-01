@@ -1,16 +1,16 @@
 {
 	"title": "MyZeroBlog",
 	"description": "My ZeroBlog.",
-	"links": "- [Source code](https://github.com/HelloZeroNet)",
+	"links": "- [Source code](https://github.com/ysc3839/ZeroBlog)",
 	"next_post_id": 2,
 	"demo": false,
-	"modified": 1432515193,
+	"modified": 1475251200,
 	"footer": "Powered by [ZeroNet](https://zeronet.io) [ open, free, and uncensored ]",
 	"post": [
 		{
 			"post_id": 1,
 			"title": "Congratulations!",
-			"date_published": 1433033779.604,
+			"date_published": 1475251200.000,
 			"body": "Your zeronet blog has been successfully created!"
 		}
 	]

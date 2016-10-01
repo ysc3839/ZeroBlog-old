@@ -1,14 +1,9 @@
 {
- "address": "1YSChkugEe2CzeFtEjJ7Kox9yfLsVWvmW",
+ "address": "19qHLGN2KEoU6CJipGbSK1hxDvUNKBWHGc",
  "background-color": "white",
  "cloneable": true,
- "description": "",
- "domain": "ysc3839.bit",
+ "description": "My ZeroBlog",
  "files": {
-  "css/all.css": {
-   "sha512": "7963f49264947a971d7233630e6edff82d366df609db6ced5e7a7dc02b328ca9",
-   "size": 127469
-  },
   "data-default/data.json": {
    "sha512": "30ef07f26ac1999fae1f885590266c2a424babf5a696c6eb379efd69862a7c8e",
    "size": 438
@@ -18,12 +13,12 @@
    "size": 679
   },
   "data/data.json": {
-   "sha512": "ef5ac979850c5e81e899715bec3aa7ea37f14943c21f95018df7aebdc3d0ed96",
-   "size": 19610
+   "sha512": "30ef07f26ac1999fae1f885590266c2a424babf5a696c6eb379efd69862a7c8e",
+   "size": 438
   },
-  "data/img/tutorial-1.png": {
-   "sha512": "885d322f4e189775cbacb6e7d4f9ee89554d5709077e3777f0d382b0e9d315f1",
-   "size": 18729
+  "data/users/content-default.json": {
+   "sha512": "0603ce08f7abb92b3840ad0cf40e95ea0b3ed3511b31524d4d70e88adba83daa",
+   "size": 679
   },
   "dbschema.json": {
    "sha512": "efb669d971d3c1effb29dfcb61de5a83a5d1ba0eae760eec045c71b953aeb2ed",
@@ -40,10 +35,6 @@
   "index.html": {
    "sha512": "70c1f251a729807b085aef46b4992e119f748815334ff18ad51801e0ff0cfb94",
    "size": 6594
-  },
-  "js/all.js": {
-   "sha512": "8971184a881d25eb34910607a2e0f4deb14a9ff0d862fe156c96fe10692d4095",
-   "size": 232919
   }
  },
  "ignore": "((js|css)/(?!all.(js|css))|data/.*db|data/users/.*/.*|LICENSE|README.md|.git)",
@@ -54,17 +45,17 @@
   }
  },
  "inner_path": "content.json",
- "modified": 1475251918.745,
+ "modified": 1475252571.272,
  "postmessage_nonce_security": true,
  "sign": [
-  34169455379273509360941736151317534794816772705323837877420915148181358262219,
-  90287961842951182529679792173125440810810021189403742373921722882682007774149
+  2340586047384186826087333851020107223428972926068506769318923437239247566598,
+  69262922849701293322419993413427084067040282099301481590671118278128216555039
  ],
- "signers_sign": "Gzco7Gdz/iB+EdwvnqJOxLgbhXT/qs1qRVPtKwTfo7ugmsRVyfuP/orPUL8Ahd6cObpS8SYLjXWsjNPjAXrnux4=",
+ "signers_sign": "G6wOrYPiee8DW5zi5qQq458IQKerfLjlrhHtJm0A0OeJO0Nyb2iaXu7I1HrRb9vZUYU8ysvPG8aMSGBeKsmZZFc=",
  "signs": {
-  "1YSChkugEe2CzeFtEjJ7Kox9yfLsVWvmW": "G+N03NjDaDKGUB6E8ix8G/AH+WqUd0528455uJHCwZE+lWIVwmyWNjh74fAGKsXacjrVz13H/DuYqZTROFq/YNg="
+  "19qHLGN2KEoU6CJipGbSK1hxDvUNKBWHGc": "G6L3b2wQOfXNP2Fzi/9QV5BJer4iRaynwxYA6M7hJ7yb2m+CF1mX8J0ewa6YvuXbIIcOMRIpHIBTd1LUHu6HFng="
  },
  "signs_required": 1,
- "title": "YSC's blog",
+ "title": "MyZeroBlog",
  "zeronet_version": "0.4.1"
 }
