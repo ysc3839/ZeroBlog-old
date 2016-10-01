@@ -4,21 +4,21 @@
  "cloneable": true,
  "description": "My ZeroBlog",
  "files": {
+  "css/all.css": {
+   "sha512": "dc86c97f4b11644483ae6ae6c69e802df05a8e7c9ad9778761d25330137afc1b",
+   "size": 127476
+  },
   "data-default/data.json": {
-   "sha512": "30ef07f26ac1999fae1f885590266c2a424babf5a696c6eb379efd69862a7c8e",
-   "size": 438
+   "sha512": "20c4844d118de38e3da42f944c1ab01ad180b457b1efe4f7849d11235d4c1b8a",
+   "size": 442
   },
   "data-default/users/content-default.json": {
-   "sha512": "0603ce08f7abb92b3840ad0cf40e95ea0b3ed3511b31524d4d70e88adba83daa",
+   "sha512": "28fc93351e6eed3a42fa7a4fadc0f1ef70529868c61091bf2d46fc2fea06d24a",
    "size": 679
   },
   "data/data.json": {
-   "sha512": "30ef07f26ac1999fae1f885590266c2a424babf5a696c6eb379efd69862a7c8e",
-   "size": 438
-  },
-  "data/users/content-default.json": {
-   "sha512": "0603ce08f7abb92b3840ad0cf40e95ea0b3ed3511b31524d4d70e88adba83daa",
-   "size": 679
+   "sha512": "20c4844d118de38e3da42f944c1ab01ad180b457b1efe4f7849d11235d4c1b8a",
+   "size": 442
   },
   "dbschema.json": {
    "sha512": "efb669d971d3c1effb29dfcb61de5a83a5d1ba0eae760eec045c71b953aeb2ed",
@@ -33,8 +33,12 @@
    "size": 723
   },
   "index.html": {
-   "sha512": "70c1f251a729807b085aef46b4992e119f748815334ff18ad51801e0ff0cfb94",
-   "size": 6594
+   "sha512": "6213ce66eafc78c6628c62b7f1284ebee8c9cc38b30d71890f0f730c804461ad",
+   "size": 6591
+  },
+  "js/all.js": {
+   "sha512": "0713b1ca73ada2c5dff1473e3a3cacceef0a83458cdeb2cfd9ec3cb636497eee",
+   "size": 232947
   }
  },
  "ignore": "((js|css)/(?!all.(js|css))|data/.*db|data/users/.*/.*|LICENSE|README.md|.git)",
@@ -45,15 +49,15 @@
   }
  },
  "inner_path": "content.json",
- "modified": 1475252571.272,
+ "modified": 1475292289.63,
  "postmessage_nonce_security": true,
  "sign": [
-  2340586047384186826087333851020107223428972926068506769318923437239247566598,
-  69262922849701293322419993413427084067040282099301481590671118278128216555039
+  98300863141374577368884304496113119328804203493325265208760666290202600156871,
+  107746868674152481443327920514407247857774950693702637046400923761381616757717
  ],
  "signers_sign": "G6wOrYPiee8DW5zi5qQq458IQKerfLjlrhHtJm0A0OeJO0Nyb2iaXu7I1HrRb9vZUYU8ysvPG8aMSGBeKsmZZFc=",
  "signs": {
-  "19qHLGN2KEoU6CJipGbSK1hxDvUNKBWHGc": "G6L3b2wQOfXNP2Fzi/9QV5BJer4iRaynwxYA6M7hJ7yb2m+CF1mX8J0ewa6YvuXbIIcOMRIpHIBTd1LUHu6HFng="
+  "19qHLGN2KEoU6CJipGbSK1hxDvUNKBWHGc": "HNftv39USIUW0+mvoqSlqEAGw3T4i33YmJdhsDu+LoxjBAr6yrBq1VscEa1SSpcyxkhrLo/0U/Bj6QckcRon3LA="
  },
  "signs_required": 1,
  "title": "MyZeroBlog",
