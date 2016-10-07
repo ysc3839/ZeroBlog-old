@@ -2,11 +2,11 @@
  "address": "19qHLGN2KEoU6CJipGbSK1hxDvUNKBWHGc",
  "background-color": "white",
  "cloneable": true,
- "description": "My ZeroBlog",
+ "description": "Test ZeroBlog",
  "files": {
   "css/all.css": {
-   "sha512": "dc86c97f4b11644483ae6ae6c69e802df05a8e7c9ad9778761d25330137afc1b",
-   "size": 127476
+   "sha512": "0655d3768ba65e89a137ba4b9161920334e4cb3da46241e6f12434ee9894f0ee",
+   "size": 128892
   },
   "data-default/data.json": {
    "sha512": "20c4844d118de38e3da42f944c1ab01ad180b457b1efe4f7849d11235d4c1b8a",
@@ -17,8 +17,8 @@
    "size": 679
   },
   "data/data.json": {
-   "sha512": "20c4844d118de38e3da42f944c1ab01ad180b457b1efe4f7849d11235d4c1b8a",
-   "size": 442
+   "sha512": "11cea45c714088bb3b140b5ad7a133bd9d7e0ec009bf6b8ac00e133c530da701",
+   "size": 514
   },
   "dbschema.json": {
    "sha512": "efb669d971d3c1effb29dfcb61de5a83a5d1ba0eae760eec045c71b953aeb2ed",
@@ -33,12 +33,12 @@
    "size": 723
   },
   "index.html": {
-   "sha512": "6213ce66eafc78c6628c62b7f1284ebee8c9cc38b30d71890f0f730c804461ad",
-   "size": 6591
+   "sha512": "301dc4d430d1b25edc6fbb1b449a523068310be7900c7f7cf004b6bfabf5b376",
+   "size": 6716
   },
   "js/all.js": {
-   "sha512": "0713b1ca73ada2c5dff1473e3a3cacceef0a83458cdeb2cfd9ec3cb636497eee",
-   "size": 232947
+   "sha512": "6e5f13f715d6ab1753e88746c9c433544ba9f9b0d24cb27452262cd5f34c6b3c",
+   "size": 233257
   }
  },
  "ignore": "((js|css)/(?!all.(js|css))|data/.*db|data/users/.*/.*|LICENSE|README.md|.git)",
@@ -49,17 +49,17 @@
   }
  },
  "inner_path": "content.json",
- "modified": 1475292289.63,
+ "modified": 1475820680.933,
  "postmessage_nonce_security": true,
  "sign": [
-  98300863141374577368884304496113119328804203493325265208760666290202600156871,
-  107746868674152481443327920514407247857774950693702637046400923761381616757717
+  77061305195156634081469109046666116539210224779365246465553633433096143348773,
+  64566663385629468584875780488918055211530159343031273027185017590581468215548
  ],
  "signers_sign": "G6wOrYPiee8DW5zi5qQq458IQKerfLjlrhHtJm0A0OeJO0Nyb2iaXu7I1HrRb9vZUYU8ysvPG8aMSGBeKsmZZFc=",
  "signs": {
-  "19qHLGN2KEoU6CJipGbSK1hxDvUNKBWHGc": "HNftv39USIUW0+mvoqSlqEAGw3T4i33YmJdhsDu+LoxjBAr6yrBq1VscEa1SSpcyxkhrLo/0U/Bj6QckcRon3LA="
+  "19qHLGN2KEoU6CJipGbSK1hxDvUNKBWHGc": "G79/zy4yRwKqvvwl4FGcW4yYI1EDzr2dyo0qGToOp+5xtYb83Jmp38nQnCYbS0Wihj/IGAUwPG/O3fmuHV2Lygw="
  },
  "signs_required": 1,
- "title": "MyZeroBlog",
+ "title": "TestZeroBlog",
  "zeronet_version": "0.4.1"
 }

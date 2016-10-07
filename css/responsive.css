@@ -1,0 +1,8 @@
+@media only screen and (max-width: 640px) {
+	.left { left: -260px; }
+	.right { margin-left: 0; padding-right: 0; }
+	.right-editable { padding-left: 26px; }
+	#content { transition: transform .5s ease; }
+	.leftbar { transform: translateX(260px); }
+	.leftbarbtn { display: block; }
+}

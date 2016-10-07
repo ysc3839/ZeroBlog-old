@@ -20,3 +20,7 @@
 }
 .icon-heart:after { left: 0; transform: rotate(45deg); transform-origin :100% 100% }
 .icon-up { font-weight: normal !important; font-size: 15px; font-family: Tahoma; vertical-align: -4px; padding-right: 5px; display: inline; height: 1px; }
+.icon-right {
+	width: 24px; height: 24px; background-repeat: no-repeat; background-position: center;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAANElEQVR4AWMgE4yCRoYGUpTrMvxh+E+algjStUSSriWKdC3REC2UaBh45TSMuAYgpAiMAgDU3h38ltq8/gAAAABJRU5ErkJggg==);
+}

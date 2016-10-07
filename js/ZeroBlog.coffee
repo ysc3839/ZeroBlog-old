@@ -14,6 +14,7 @@ class ZeroBlog extends ZeroFrame
       if @site_info.settings.own or @data.demo
         @addInlineEditors()
         @checkPublishbar()
+        $(".right").addClass("right-editable")
         $(".publishbar").off("click").on "click", @publish
         $(".posts .button.new").css("display", "inline-block")
         $(".editbar .icon-help").off("click").on "click", ->
@@ -29,6 +30,13 @@ class ZeroBlog extends ZeroFrame
       $("body").append("<style>.avatar { background-image: \
           url(data:image/png;base64,#{imagedata}) }</style>")
       @initFollowButton()
+
+    @cmd "wrapperSetViewport", "width=device-width, initial-scale=1.0"
+    $("#leftbarbtnlink").off("click").on "click", ->
+      $(this).toggleClass("rotate180")
+      $("#content").toggleClass("leftbar")
+      return false
+
     @log "inited!"
 
 
@@ -347,17 +355,17 @@ class ZeroBlog extends ZeroFrame
         tagged = res[2..]
 
         if tagged.length > 0
-          markdown += "tagged:\n\n"
+          markdown += "标签:\n\n"
 
         for one in tagged
           escaped = encodeURIComponent(one.value)
-          markdown += "[#{one.value}:#{one.count} post(s)]\
+          markdown += "[#{one.value}:#{one.count} 篇文章]\
             (?Toc=tag:#{escaped})\n"
 
         untagged=total_post - res[1].count
 
         if untagged != 0
-          markdown += "\n[untagged:#{untagged} post(s)]\
+          markdown += "\n[无标签:#{untagged} 篇文章]\
             (?Toc=tagNone)"
 
 
