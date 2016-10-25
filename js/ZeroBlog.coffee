@@ -31,7 +31,6 @@ class ZeroBlog extends ZeroFrame
           url(data:image/png;base64,#{imagedata}) }</style>")
       @initFollowButton()
 
-    @cmd "wrapperSetViewport", "width=device-width, initial-scale=1.0"
     $("#leftbarbtnlink").off("click").on "click", ->
       $(this).toggleClass("rotate180")
       $("#content").toggleClass("leftbar")
