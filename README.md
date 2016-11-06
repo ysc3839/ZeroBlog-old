@@ -1,10 +1,19 @@
 # ZeroBlog
 Demo for decentralized, self publishing blogging platform.
 
-## Screenshot
+# 测试站点
+http://127.0.0.1:43110/19qHLGN2KEoU6CJipGbSK1hxDvUNKBWHGc
 
-![Screenshot](http://i.imgur.com/diTYHcm.png) 
+# 安装
+英文教程: http://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:3:How+to+have+a+blog+like+this
+## 克隆
+直接克隆 http://127.0.0.1:43110/19qHLGN2KEoU6CJipGbSK1hxDvUNKBWHGc
 
-ZeroNet address: http://127.0.0.1:43110/1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8
-
-To change the avatar replace the image /img/avatar.png with a new png, 60 by 60 pixels is recommended.
+## 手动
+* 退出 ZeroNet
+* 使用`python zeronet.py siteCreate`创建一个新站点
+* 下载 [zip](https://github.com/ysc3839/ZeroBlog/archive/master.zip)
+* 将 zip 中的文件解压到 data/[刚才创建的站点地址]
+* 将 `data-default` 重命名为 `data`, 并将 `data/users/content-default.json` 重命名为 `data/users/content.json`
+* 执行命令 `zeronet.py siteSign [站点地址] --inner_path data/users/content.json` 以签署评论规则
+* 执行命令 `zeronet.py siteSign [站点地址] --publish`
